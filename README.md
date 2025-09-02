@@ -219,7 +219,7 @@ You should ensure that your device is connected, recognized by your machine and 
 Replace `{platform}` with `android` or `ios` depending on your target platform.
 ```bash
 cd your-project-name
-php artisan native:run {platform} ZY22JB8HDX
+php artisan native:run {platform} {DEVICE_ID}
 ``` 
 
 The command will ask you for select the build type.
